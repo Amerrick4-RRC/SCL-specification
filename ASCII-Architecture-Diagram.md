@@ -1,5 +1,5 @@
 ASCII Architecture Diagram (README‑friendly)
-
+```
 +-------------------------------------------------------------+
 |                 Cognitive Governance Layer (CGL)            |
 |-------------------------------------------------------------|
@@ -23,7 +23,7 @@ ASCII Architecture Diagram (README‑friendly)
 |                     +---------------------------+           |
 |                                                             |
 +-------------------------------------------------------------+
-
+```
       (All governance domains operate within the model’s
         reasoning process to enforce structured behavior)
 
@@ -32,7 +32,7 @@ Markdown Block Diagram
 # Cognitive Governance Layer (CGL)
 
 A governance architecture operating within the model’s reasoning process.
-
+```
 ┌───────────────────────────────────────────────────────────────┐
 │                 **Cognitive Governance Layer (CGL)**           │
 │                                                               │
@@ -54,6 +54,6 @@ A governance architecture operating within the model’s reasoning process.
 │                     └──────────────────────────────┘         │
 │                                                               │
 └───────────────────────────────────────────────────────────────┘
-
+```
 _All governance domains operate within the model’s reasoning process to
 enforce structured, predictable, and auditable behavior._
