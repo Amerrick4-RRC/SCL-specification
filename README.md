@@ -1,20 +1,20 @@
-# CGL-specification
-Cognitive-Governance-Layer specification
+# SCL-specification
+Structured-Cognition-Layer specification
 *A new architectural primitive for governing LLM identity, reasoning, and ethical behavior.*
 
 ---
 
 ## Overview
 
-The **Cognitive Governance Layer (CGL)** is a governance architecture that operates **within the model’s reasoning process**, shaping how a language model interprets its identity, applies rules, adheres to ethical constraints, and generates structured cognitive artifacts.
+The **Structured Cognition Layer (SCL)** is a governance architecture that operates **within the model’s reasoning process**, shaping how a language model interprets its identity, applies rules, adheres to ethical constraints, and generates structured cognitive artifacts.
 
-CGL provides a unified framework for **predictable, auditable, and aligned** model behavior — without exposing or depending on any specific implementation details.
+SCL provides a unified framework for **predictable, auditable, and aligned** model behavior — without exposing or depending on any specific implementation details.
 
-This repository defines the **concept**, **terminology**, and **governance domains** of the Cognitive Governance Layer.
+This repository defines the **concept**, **terminology**, and **governance domains** of the Structured Cognition Layer.
 
 ---
 
-## Why CGL?
+## Why SCL?
 
 Modern LLMs lack a coherent structure for governing:
 
@@ -24,13 +24,13 @@ Modern LLMs lack a coherent structure for governing:
 - how their decisions can be audited  
 
 Existing approaches rely on ad‑hoc prompts, heuristics, or safety wrappers.  
-CGL introduces a **system‑level governance layer** that governs both **behavior** and **cognition**.
+SCL introduces a **system‑level governance layer** that governs both **behavior** and **cognition**.
 
 ---
 
 ## Governance Domains
 
-The Cognitive Governance Layer consists of three primary governance domains.  
+The Structured Cognition Layer consists of three primary governance domains.  
 These domains describe *what* is governed — not *how* it is implemented.
 
 ### **1. Identity Governance**
@@ -71,9 +71,9 @@ Ethical Governance ensures:
 
 ---
 
-## What CGL Is Not
+## What SCL Is Not
 
-CGL is **not**:
+SCL is **not**:
 
 - prompt engineering  
 - intent engineering  
@@ -81,7 +81,7 @@ CGL is **not**:
 - a safety wrapper  
 - a system prompt trick  
 
-CGL is a **governance architecture** — a conceptual layer that shapes how the model reasons, decides, and adheres to constraints.
+SCL is a **governance architecture** — a conceptual layer that shapes how the model reasons, decides, and adheres to constraints.
 
 ---
 
@@ -106,13 +106,13 @@ CGL is a **governance architecture** — a conceptual layer that shapes how the 
 
 ## One‑Sentence Definition
 
-> **The Cognitive Governance Layer (CGL) is a governance architecture that operates within the model’s reasoning process, enforcing identity, rules, ethical constraints, and structured cognitive trace generation to produce predictable, auditable, and aligned LLM behavior.**
+> **The Structured Cognition Layer (SCL) is a governance architecture that operates within the model’s reasoning process, enforcing identity, rules, ethical constraints, and structured cognitive trace generation to produce predictable, auditable, and aligned LLM behavior.**
 
 ---
 
 ## Status
 
-This repository defines the **conceptual specification** of the Cognitive Governance Layer.  
+This repository defines the **conceptual specification** of the Structured Cognition Layer.  
 Implementation details are intentionally omitted.
 
 Future updates may include:

@@ -1,7 +1,7 @@
 ASCII Architecture Diagram (README‑friendly)
 ```
 +-------------------------------------------------------------+
-|                 Cognitive Governance Layer (CGL)            |
+|                 Structured Cognition Layer (SCL)            |
 |-------------------------------------------------------------|
 |                                                             |
 |   +------------------------+   +---------------------------+ |
@@ -29,12 +29,12 @@ ASCII Architecture Diagram (README‑friendly)
 
 Markdown Block Diagram 
 
-# Cognitive Governance Layer (CGL)
+# Structured Cognition Layer (SCL)
 
 A governance architecture operating within the model’s reasoning process.
 ```
 ┌───────────────────────────────────────────────────────────────┐
-│                 **Cognitive Governance Layer (CGL)**           │
+│                 **Structured Cognition Layer (SCL)**           │
 │                                                               │
 │  ┌────────────────────────┐   ┌────────────────────────────┐  │
 │  │  **Identity Governance**│   │ **Cognitive Trace Governance**│ │
